@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Approach">
+    <test verbose="2" preserve-order="true" name="LoginTest">
+        <classes>
+            <class name="testcases.LoginTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,7 @@
+INFO    2023-06-14 23:37:03,868 [main] Logger  - config file loaded.
+INFO    2023-06-14 23:37:03,870 [main] Logger  - or file loaded.
+INFO    2023-06-14 23:37:12,690 [main] Logger  - chrome browser activated.
+INFO    2023-06-14 23:37:14,771 [main] Logger  - navigated to https://www.way2automation.com/angularjs-protractor/banking/#/login
+INFO    2023-06-14 23:37:15,388 [main] Logger  - inside login test
+INFO    2023-06-14 23:37:18,810 [main] Logger  - login test successfully executed.
+INFO    2023-06-14 23:37:18,955 [main] Logger  - test execution completed.
