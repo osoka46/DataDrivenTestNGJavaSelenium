@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-15T00:25:11 CEST" name="All Test Suite" finished-at="2023-06-15T00:25:15 CEST" duration-ms="3284">
+  <suite started-at="2023-06-15T09:32:24 CEST" name="All Test Suite" finished-at="2023-06-15T09:32:32 CEST" duration-ms="7579">
     <groups>
     </groups>
-    <test started-at="2023-06-15T00:25:11 CEST" name="/Users/osmanbozdag/IdeaProjects/DataDrivenProject" finished-at="2023-06-15T00:25:15 CEST" duration-ms="3284">
+    <test started-at="2023-06-15T09:32:24 CEST" name="/Users/osmanbozdag/IdeaProjects/DataDrivenProject" finished-at="2023-06-15T09:32:32 CEST" duration-ms="7579">
       <class name="testcases.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTest@50b472aa]" started-at="2023-06-15T00:25:02 CEST" name="setUp" finished-at="2023-06-15T00:25:11 CEST" duration-ms="9209" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTest@5e82df6a]" started-at="2023-06-15T09:32:11 CEST" name="setUp" finished-at="2023-06-15T09:32:24 CEST" duration-ms="12451" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginButton()[pri:0, instance:testcases.LoginTest@50b472aa]" started-at="2023-06-15T00:25:11 CEST" name="loginButton" finished-at="2023-06-15T00:25:15 CEST" duration-ms="3258" status="PASS">
+        <test-method signature="loginButton()[pri:0, instance:testcases.LoginTest@5e82df6a]" started-at="2023-06-15T09:32:24 CEST" name="loginButton" finished-at="2023-06-15T09:32:32 CEST" duration-ms="7521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginButton -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@50b472aa]" started-at="2023-06-15T00:25:16 CEST" name="tearDown" finished-at="2023-06-15T00:25:16 CEST" duration-ms="119" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@5e82df6a]" started-at="2023-06-15T09:32:32 CEST" name="tearDown" finished-at="2023-06-15T09:32:32 CEST" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

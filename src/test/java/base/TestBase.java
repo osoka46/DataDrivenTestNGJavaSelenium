@@ -4,6 +4,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -75,6 +77,17 @@ public class TestBase {
         logger.info("navigated to "+config.getProperty("testingUrl"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicitWait")), TimeUnit.SECONDS);
+
+    }
+    public boolean isElementDisplayed(By by)
+    {
+        try {
+            driver.findElement(by);
+            return true;
+        }catch (NoSuchElementException e)
+        {
+            return false;
+        }
 
     }
 

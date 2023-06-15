@@ -13,9 +13,8 @@ public class LoginTest extends TestBase {
         logger.info("inside login test");
         driver.findElement(By.xpath(or.getProperty("bankManagerLoginButton"))).click();
         Thread.sleep(3000);
+        Assert.assertTrue(isElementDisplayed(By.cssSelector(or.getProperty("addCustomerBtn"))),"Login is not succesfull");
         logger.info("login test successfully executed.");
-        Assert.assertTrue(true);
-
     }
 
 
