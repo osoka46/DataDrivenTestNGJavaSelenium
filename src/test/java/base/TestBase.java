@@ -1,7 +1,6 @@
 package base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
@@ -9,11 +8,15 @@ import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import utilities.ExcelReader;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.time.Duration;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -33,9 +36,12 @@ public class TestBase {
     public static Properties config = new Properties();
     public static Properties or = new Properties();
     public static FileInputStream fis;
-    public static Logger logger=Logger.getLogger("Logger");
+    public static Logger logger = Logger.getLogger("Logger");
+    public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
+    public static WebDriverWait wait;
+
     static {
-        PropertyConfigurator.configure(System.getProperty("user.dir")+"/src/test/resources/log4j.properties");
+        PropertyConfigurator.configure(System.getProperty("user.dir") + "/src/test/resources/log4j.properties");
     }
 
 
@@ -58,37 +64,38 @@ public class TestBase {
                 e.printStackTrace();
                 throw new RuntimeException(e);
             }
+            if (config.getProperty("browser").equals("firefox")) {
+                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/executables/geckodriver");
+                driver = new FirefoxDriver();
+            } else if (config.getProperty("browser").equals("chrome")) {
+                //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/executables/chromedriver");
+                WebDriverManager.chromedriver().setup();
+                driver = new ChromeDriver();
+            } else {
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/executables/chromedriver");
+                driver = new ChromeDriver();
+            }
+        }
 
-        }
-        if (config.getProperty("browser").equals("firefox")) {
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/executables/geckodriver");
-            driver = new FirefoxDriver();
-        }
-        else if (config.getProperty("browser").equals("chrome")) {
-            //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/executables/chromedriver");
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
-        } else {
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/executables/chromedriver");
-            driver = new ChromeDriver();
-        }
-        logger.info(config.getProperty("browser")+" browser activated.");
+        logger.info(config.getProperty("browser") + " browser activated.");
         driver.get(config.getProperty("testingUrl"));
-        logger.info("navigated to "+config.getProperty("testingUrl"));
+        logger.info("navigated to " + config.getProperty("testingUrl"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicitWait")), TimeUnit.SECONDS);
 
     }
-    public boolean isElementDisplayed(By by)
-    {
+
+    public boolean isElementDisplayed(By by) {
         try {
             driver.findElement(by);
             return true;
-        }catch (NoSuchElementException e)
-        {
+        } catch (NoSuchElementException e) {
             return false;
         }
+    }
 
+    public void expectedWait(WebDriver driver, long time) {
+        wait = new WebDriverWait(driver, Duration.ofSeconds(time));
     }
 
     @AfterSuite
@@ -97,7 +104,6 @@ public class TestBase {
             driver.quit();
         }
         logger.info("test execution completed.");
-
     }
 
 

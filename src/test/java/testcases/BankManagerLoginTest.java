@@ -5,15 +5,14 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LoginTest extends TestBase {
+public class BankManagerLoginTest extends TestBase {
 
 
     @Test
-    public void loginButton() throws InterruptedException {
+    public void loginButton() {
         logger.info("inside login test");
         driver.findElement(By.xpath(or.getProperty("bankManagerLoginButton"))).click();
-        Thread.sleep(3000);
-        Assert.assertTrue(isElementDisplayed(By.cssSelector(or.getProperty("addCustomerBtn"))),"Login is not succesfull");
+        Assert.assertTrue(isElementDisplayed(By.cssSelector(or.getProperty("addCustomerBtn"))),"Login is not successful");
         logger.info("login test successfully executed.");
     }
 

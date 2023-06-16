@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Data Driven Approach">
-    <test verbose="2" preserve-order="true" name="LoginTest">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Bank Manager Login Test">
         <classes>
-            <class name="testcases.LoginTest"></class>
+            <class name="testcases.BankManagerLoginTest"></class>
+        </classes>
+    </test>
+
+    <test verbose="2" preserve-order="true" name="Add Customer Test">
+        <classes>
+            <class name="testcases.AddCustomerTest"></class>
         </classes>
     </test>
 </suite>
