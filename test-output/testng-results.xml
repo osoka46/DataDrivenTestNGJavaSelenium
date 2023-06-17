@@ -1,29 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Bank manager login button clicked]]>
+    </line>
+    <line>
+      <![CDATA[login test successfully executed.]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-06-16T11:36:57 CEST" name="All Test Suite" finished-at="2023-06-16T11:37:11 CEST" duration-ms="13658">
+  <suite started-at="2023-06-16T13:05:48 CEST" name="All Test Suite" finished-at="2023-06-16T13:06:04 CEST" duration-ms="16276">
     <groups>
     </groups>
-    <test started-at="2023-06-16T11:36:57 CEST" name="Bank Manager Login Test" finished-at="2023-06-16T11:37:00 CEST" duration-ms="3019">
+    <test started-at="2023-06-16T13:05:48 CEST" name="Bank Manager Login Test" finished-at="2023-06-16T13:05:51 CEST" duration-ms="2911">
       <class name="testcases.BankManagerLoginTest">
-        <test-method signature="loginButton()[pri:0, instance:testcases.BankManagerLoginTest@23aa363a]" started-at="2023-06-16T11:36:57 CEST" name="loginButton" finished-at="2023-06-16T11:37:00 CEST" duration-ms="2986" status="PASS">
+        <test-method signature="loginButton()[pri:0, instance:testcases.BankManagerLoginTest@333dd51e]" started-at="2023-06-16T13:05:48 CEST" name="loginButton" finished-at="2023-06-16T13:05:51 CEST" duration-ms="2865" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[Bank manager login button clicked]]>
+            </line>
+            <line>
+              <![CDATA[login test successfully executed.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginButton -->
       </class> <!-- testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2023-06-16T11:37:00 CEST" name="Add Customer Test" finished-at="2023-06-16T11:37:11 CEST" duration-ms="10577">
+    <test started-at="2023-06-16T13:05:52 CEST" name="Add Customer Test" finished-at="2023-06-16T13:06:04 CEST" duration-ms="12252">
       <class name="testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@5aac4250]" started-at="2023-06-16T11:36:46 CEST" name="setUp" finished-at="2023-06-16T11:36:57 CEST" duration-ms="10839" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@736d6a5c]" started-at="2023-06-16T13:05:33 CEST" name="setUp" finished-at="2023-06-16T13:05:48 CEST" duration-ms="15223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCustomer()[pri:0, instance:testcases.AddCustomerTest@5aac4250]" started-at="2023-06-16T11:37:00 CEST" name="addCustomer" finished-at="2023-06-16T11:37:11 CEST" duration-ms="10574" status="PASS">
+        <test-method signature="addCustomer()[pri:0, instance:testcases.AddCustomerTest@736d6a5c]" started-at="2023-06-16T13:05:52 CEST" name="addCustomer" finished-at="2023-06-16T13:06:04 CEST" duration-ms="12249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@5aac4250]" started-at="2023-06-16T11:37:11 CEST" name="tearDown" finished-at="2023-06-16T11:37:11 CEST" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@736d6a5c]" started-at="2023-06-16T13:06:04 CEST" name="tearDown" finished-at="2023-06-16T13:06:04 CEST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

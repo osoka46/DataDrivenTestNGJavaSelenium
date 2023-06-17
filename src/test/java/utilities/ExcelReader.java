@@ -59,11 +59,7 @@ public class ExcelReader {
         }
         if(cell.getCellType()==CellType.NUMERIC){
             double value=cell.getNumericCellValue();
-
         }
-
-
-
     }*/
         return null;
 
