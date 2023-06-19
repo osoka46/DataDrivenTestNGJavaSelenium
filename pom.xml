@@ -16,8 +16,6 @@
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
-
-
         <dependency>
             <groupId>org.uncommons</groupId>
             <artifactId>reportng</artifactId>
@@ -125,7 +123,6 @@
             <version>1.4</version>
         </dependency>
     </dependencies>
-
 
     <build>
         <plugins>

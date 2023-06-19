@@ -1,41 +1,167 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> xpath: //button[text()='Bank Manager Login']]Webelemenet found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> xpath: //button[text()='Bank Manager Login']] clicked.]]>
+    </line>
     <line>
       <![CDATA[Bank manager login button clicked]]>
     </line>
     <line>
-      <![CDATA[login test successfully executed.]]>
+      <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[ng-click='addCust()']]Webelemenet found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[ng-click='addCust()']] clicked.]]>
+    </line>
+    <line>
+      <![CDATA[Webelemenet found]]>
+    </line>
+    <line>
+      <![CDATA[osman typed.]]>
+    </line>
+    <line>
+      <![CDATA[Webelemenet found]]>
+    </line>
+    <line>
+      <![CDATA[bzd typed.]]>
+    </line>
+    <line>
+      <![CDATA[Webelemenet found]]>
+    </line>
+    <line>
+      <![CDATA[123 typed.]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[class='btn btn-default']]Webelemenet found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[class='btn btn-default']] clicked.]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-16T13:05:48 CEST" name="All Test Suite" finished-at="2023-06-16T13:06:04 CEST" duration-ms="16276">
+  <suite started-at="2023-06-19T10:39:43 CEST" name="All Test Suite" finished-at="2023-06-19T10:40:04 CEST" duration-ms="20882">
     <groups>
     </groups>
-    <test started-at="2023-06-16T13:05:48 CEST" name="Bank Manager Login Test" finished-at="2023-06-16T13:05:51 CEST" duration-ms="2911">
+    <test started-at="2023-06-19T10:39:43 CEST" name="Bank Manager Login Test" finished-at="2023-06-19T10:40:00 CEST" duration-ms="17762">
       <class name="testcases.BankManagerLoginTest">
-        <test-method signature="loginButton()[pri:0, instance:testcases.BankManagerLoginTest@333dd51e]" started-at="2023-06-16T13:05:48 CEST" name="loginButton" finished-at="2023-06-16T13:05:51 CEST" duration-ms="2865" status="PASS">
+        <test-method signature="loginButton()[pri:0, instance:testcases.BankManagerLoginTest@3d9f6567]" started-at="2023-06-19T10:39:43 CEST" name="loginButton" finished-at="2023-06-19T10:40:00 CEST" duration-ms="17659" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login is not successful expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login is not successful expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testcases.BankManagerLoginTest.loginButton(BankManagerLoginTest.java:17)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
             <line>
-              <![CDATA[Bank manager login button clicked]]>
+              <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> xpath: //button[text()='Bank Manager Login']]Webelemenet found]]>
             </line>
             <line>
-              <![CDATA[login test successfully executed.]]>
+              <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> xpath: //button[text()='Bank Manager Login']] clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Bank manager login button clicked]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginButton -->
       </class> <!-- testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2023-06-16T13:05:52 CEST" name="Add Customer Test" finished-at="2023-06-16T13:06:04 CEST" duration-ms="12252">
+    <test started-at="2023-06-19T10:40:01 CEST" name="Add Customer Test" finished-at="2023-06-19T10:40:04 CEST" duration-ms="3040">
       <class name="testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@736d6a5c]" started-at="2023-06-16T13:05:33 CEST" name="setUp" finished-at="2023-06-16T13:05:48 CEST" duration-ms="15223" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@5a411614]" started-at="2023-06-19T10:39:30 CEST" name="setUp" finished-at="2023-06-19T10:39:43 CEST" duration-ms="12356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCustomer()[pri:0, instance:testcases.AddCustomerTest@736d6a5c]" started-at="2023-06-16T13:05:52 CEST" name="addCustomer" finished-at="2023-06-16T13:06:04 CEST" duration-ms="12249" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@5a411614]" started-at="2023-06-19T10:40:01 CEST" name="addCustomer" finished-at="2023-06-19T10:40:04 CEST" duration-ms="3032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[osman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bzd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[ng-click='addCust()']]Webelemenet found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[ng-click='addCust()']] clicked.]]>
+            </line>
+            <line>
+              <![CDATA[Webelemenet found]]>
+            </line>
+            <line>
+              <![CDATA[osman typed.]]>
+            </line>
+            <line>
+              <![CDATA[Webelemenet found]]>
+            </line>
+            <line>
+              <![CDATA[bzd typed.]]>
+            </line>
+            <line>
+              <![CDATA[Webelemenet found]]>
+            </line>
+            <line>
+              <![CDATA[123 typed.]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[class='btn btn-default']]Webelemenet found]]>
+            </line>
+            <line>
+              <![CDATA[[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[class='btn btn-default']] clicked.]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@736d6a5c]" started-at="2023-06-16T13:06:04 CEST" name="tearDown" finished-at="2023-06-16T13:06:04 CEST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@5a411614]" started-at="2023-06-19T10:40:04 CEST" name="tearDown" finished-at="2023-06-19T10:40:04 CEST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

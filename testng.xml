@@ -14,6 +14,10 @@
     </test>
 
     <test verbose="2" preserve-order="true" name="Add Customer Test">
+        <parameter name="firstName" value="osman"></parameter>
+        <parameter name="lastName" value="bzd"></parameter>
+        <parameter name="postCode" value="123"></parameter>
+        <parameter name="confirmation" value="Customer added successfully"></parameter>
         <classes>
             <class name="testcases.AddCustomerTest"></class>
         </classes>

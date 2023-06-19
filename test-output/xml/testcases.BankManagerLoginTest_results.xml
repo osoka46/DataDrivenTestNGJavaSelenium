@@ -1,13 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Bank Manager Login Test"
            tests="1"
-           failures="0"
+           failures="1"
            errors="0"
            skipped="0"
-           time="2,865">
+           time="17,659">
   <properties />
+            <testcase name="loginButton" time="17,659" classname="testcases.BankManagerLoginTest">
+                <failure type="java.lang.AssertionError"
+                  message="Login is not successful expected [true] but found [false]"
+              >
+<![CDATA[java.lang.AssertionError: Login is not successful expected [true] but found [false]
+  org.testng.Assert.fail(Assert.java:111)
+  org.testng.Assert.failNotEquals(Assert.java:1578)
+  org.testng.Assert.assertTrue(Assert.java:57)
+  testcases.BankManagerLoginTest.loginButton(BankManagerLoginTest.java:17)
+  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+  java.base/java.lang.reflect.Method.invoke(Method.java:577)
+  org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+  org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+  org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+  org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+  org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+  org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+  org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:848)
+  org.testng.TestRunner.run(TestRunner.java:621)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+  org.testng.SuiteRunner.run(SuiteRunner.java:336)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+  org.testng.TestNG.runSuites(TestNG.java:1114)
+  org.testng.TestNG.run(TestNG.java:1082)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
   
   
-            <testcase name="loginButton" time="2,865" classname="testcases.BankManagerLoginTest" />
-      
+  
 </testsuite>
