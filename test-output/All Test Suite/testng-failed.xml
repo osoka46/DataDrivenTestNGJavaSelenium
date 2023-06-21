@@ -25,7 +25,7 @@
     <classes>
       <class name="testcases.AddCustomerTest">
         <methods>
-          <include name="addCustomer"/>
+          <include name="addCustomer" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

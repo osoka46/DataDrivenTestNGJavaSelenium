@@ -10,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.Properties;
@@ -18,7 +19,7 @@ public class TestProperties {
 
     public static void main(String[] args) throws IOException {
 
-        FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
+       /* FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
         XSSFWorkbook workbook = new XSSFWorkbook(fis);
 //excel dosyasindaki sayfa sayisi
         int sheetCount = workbook.getNumberOfSheets();
@@ -68,7 +69,9 @@ public class TestProperties {
         System.out.println(data[0][2]);
 
         //System.out.println(Arrays.deepToString(data));
-
+*/
+        LocalDateTime localDateTime=LocalDateTime.now();
+        System.out.println(localDateTime.withNano(0));
 
     }
 }

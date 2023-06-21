@@ -13,10 +13,21 @@ public class CustomListeners extends TestBase implements ITestListener {
 
     @Override
     public void onTestFailure(ITestResult result) {
-        Reporter.log(result.getMethod().getMethodName()+" NOT successfully executed");
         System.setProperty("org.uncommons.reportng.escape-output", "false");
-        String path = System.getProperty("user.dir") + "/src/test/java/screenShotReports/1.png";
-        Reporter.log("<a href=\"" + path + "\"><p align=\"left\">screenshot" + "</p>");
+        String testMethodName=result.getMethod().getMethodName();
+        // Reporter.log(result.getMethod().getMethodName()+" successfully executed");
+        String screenShotName=TestUtil.captureScreenShot(testMethodName);
+
+        //  TestUtil.captureScreenShot(testMethodName);
+        String path = System.getProperty("user.dir") + "/src/test/java/screenShots/"+screenShotName+".png";
+
+        Reporter.log("<a target=\"_blank\" href=\"" + path + "\"><p align=\"left\">screenshot " + "</p>");
+        Reporter.log("<br>");
+        Reporter.log("<br>");
+
+        Reporter.log("<img src=\"System.getProperty(\"user.dir\") + \"/src/test/java/screenShotReports/1.png\" width =200 height=200></img>");
+        Reporter.log("<img src=\"" + path + "\"width =200 height=200><p align=\"left\"> " + "</p>");
+
        /* Reporter.log();
         Reporter.log("<a href="/src/test/java/screenShotReports/1.png");
         Reporter.log("<a target=\"_blank\" href=path">ScreenShot</a>");
@@ -27,13 +38,21 @@ public class CustomListeners extends TestBase implements ITestListener {
     @Override
     public void onTestSuccess(ITestResult result) {
         System.setProperty("org.uncommons.reportng.escape-output", "false");
-        Reporter.log(result.getMethod().getMethodName()+" successfully executed");
+        String testMethodName=result.getMethod().getMethodName();
+       // Reporter.log(result.getMethod().getMethodName()+" successfully executed");
+        String screenShotName=TestUtil.captureScreenShot(testMethodName);
 
-        String path = System.getProperty("user.dir") + "/src/test/java/screenShotReports/1.png";
+      //  TestUtil.captureScreenShot(testMethodName);
+        String path = System.getProperty("user.dir") + "/src/test/java/screenShots/"+screenShotName+".png";
+
         Reporter.log("<a target=\"_blank\" href=\"" + path + "\"><p align=\"left\">screenshot " + "</p>");
         Reporter.log("<br>");
-        Reporter.log("<img src=\"System.getProperty(\"user.dir\") + \"/src/test/java/screenShotReports/1.png\" width =200 height=200></img>");
+        Reporter.log("<br>");
+       // Reporter.log("<img src=\"System.getProperty(\"user.dir\") + \"/src/test/java/screenShotReports/1.png\" width =200 height=200></img>");
         Reporter.log("<img src=\"" + path + "\"width =200 height=200><p align=\"left\"> " + "</p>");
+
+
+
 
 
 
