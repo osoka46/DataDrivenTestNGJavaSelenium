@@ -63,17 +63,10 @@ public class AddCustomerTest extends TestBase {
         data[1][2] = "54321";
         data[1][3] = "Customer added successfully";
 
-
-
-
-
         /*data[0][0] = row.getCell(0).getStringCellValue();
         data[0][1] = row.getCell(1).getStringCellValue();
-
         data[0][2] = row.getCell(2).getStringCellValue();
         data[0][3] = row.getCell(3).getStringCellValue();*/
-
-
         //data[0][1]=row.getCell(1).getStringCellValue();
 
         return data;

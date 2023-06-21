@@ -9,44 +9,14 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">All Test Suite</th></tr>
-<tr><td><a href="#t0">Bank Manager Login Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">17.762</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Add Customer Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3.040</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">20.802</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Bank Manager Login Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">10.693</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Add Customer Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">3.812</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">14.505</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Bank Manager Login Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.BankManagerLoginTest</td><td><a href="#m0">loginButton</a></td><td rowspan="1">1687163983234</td><td rowspan="1">17659</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Add Customer Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.AddCustomerTest</td><td><a href="#m1">addCustomer</a></td><td rowspan="1">1687164001005</td><td rowspan="1">3032</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">All Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Bank Manager Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.BankManagerLoginTest</td><td><a href="#m0">loginButton</a></td><td rowspan="1">1687335282896</td><td rowspan="1">10661</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Add Customer Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.AddCustomerTest</td><td><a href="#m1">addCustomer</a></td><td rowspan="1">1687335293646</td><td rowspan="1">3805</td></tr></tbody>
 </table>
-<h2>Bank Manager Login Test</h2><h3 id="m0">testcases.BankManagerLoginTest#loginButton</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> xpath: //button[text()='Bank Manager Login']]Webelemenet found<br/>[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> xpath: //button[text()='Bank Manager Login']] clicked.<br/>Bank manager login button clicked</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Login is not successful expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at testcases.BankManagerLoginTest.loginButton(BankManagerLoginTest.java:17)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-	at org.testng.TestNG.runSuites(TestNG.java:1114)
-	at org.testng.TestNG.run(TestNG.java:1082)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Add Customer Test</h2><h3 id="m1">testcases.AddCustomerTest#addCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>osman</td><td>bzd</td><td>123</td><td>Customer added successfully</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[ng-click='addCust()']]Webelemenet found<br/>[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[ng-click='addCust()']] clicked.<br/>Webelemenet found<br/>osman typed.<br/>Webelemenet found<br/>bzd typed.<br/>Webelemenet found<br/>123 typed.<br/>[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[class='btn btn-default']]Webelemenet found<br/>[[ChromeDriver: chrome on mac (d0e59c1cbddccb2fb0dc4f5669f5abc7)] -> css selector: button[class='btn btn-default']] clicked.</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Bank Manager Login Test</h2><h3 id="m0">testcases.BankManagerLoginTest#loginButton</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">[[ChromeDriver: chrome on mac (9ec6c3f15d877f19f4fe8656971e3e12)] -> xpath: //button[text()='Bank Manager Login']]Webelemenet found<br/>[[ChromeDriver: chrome on mac (9ec6c3f15d877f19f4fe8656971e3e12)] -> xpath: //button[text()='Bank Manager Login']] clicked.<br/>Bank manager login button clicked<br/>loginButtonsuccessfully executed<br/><a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShotReports/1.png"><p align="left">screenshot </p><br/><br><br/><img src="System.getProperty("user.dir") + "/src/test/java/screenShotReports/1.png" width =200 height=200></img><br/><img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShotReports/1.png"width =200 height=200><p align="left"> </p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Add Customer Test</h2><h3 id="m1">testcases.AddCustomerTest#addCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>osman</td><td>bzd</td><td>123</td><td>Customer added successfully</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages">[[ChromeDriver: chrome on mac (9ec6c3f15d877f19f4fe8656971e3e12)] -> css selector: button[ng-click='addCust()']]Webelemenet found<br/>[[ChromeDriver: chrome on mac (9ec6c3f15d877f19f4fe8656971e3e12)] -> css selector: button[ng-click='addCust()']] clicked.<br/>Webelemenet found<br/>osman typed.<br/>Webelemenet found<br/>bzd typed.<br/>Webelemenet found<br/>123 typed.<br/>[[ChromeDriver: chrome on mac (9ec6c3f15d877f19f4fe8656971e3e12)] -> css selector: button[class='btn btn-default']]Webelemenet found<br/>[[ChromeDriver: chrome on mac (9ec6c3f15d877f19f4fe8656971e3e12)] -> css selector: button[class='btn btn-default']] clicked.<br/>addCustomersuccessfully executed<br/><a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShotReports/1.png"><p align="left">screenshot </p><br/><br><br/><img src="System.getProperty("user.dir") + "/src/test/java/screenShotReports/1.png" width =200 height=200></img><br/><img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShotReports/1.png"width =200 height=200><p align="left"> </p></div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

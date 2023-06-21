@@ -17,4 +17,19 @@
       </class> <!-- testcases.BankManagerLoginTest -->
     </classes>
   </test> <!-- Bank Manager Login Test(failed) -->
+  <test thread-count="5" name="Add Customer Test(failed)">
+    <parameter name="firstName" value="osman"/>
+    <parameter name="lastName" value="bzd"/>
+    <parameter name="postCode" value="123"/>
+    <parameter name="confirmation" value="Customer added successfully"/>
+    <classes>
+      <class name="testcases.AddCustomerTest">
+        <methods>
+          <include name="addCustomer"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.AddCustomerTest -->
+    </classes>
+  </test> <!-- Add Customer Test(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->
