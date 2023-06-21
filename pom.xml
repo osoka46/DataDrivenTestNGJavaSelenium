@@ -142,6 +142,7 @@
         <testResources>
             <testResource>
                <directory>/src/test/resources/log4j.properties</directory>
+              <includes><include>log4j.properties</include></includes>
             </testResource>
         </testResources>
     </build>

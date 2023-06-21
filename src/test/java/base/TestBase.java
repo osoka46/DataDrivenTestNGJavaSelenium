@@ -1,20 +1,20 @@
 package base;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.commons.io.FileUtils;
+
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
+
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import utilities.ExcelReader;
 
-import java.io.File;
+
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
@@ -25,7 +25,7 @@ public class TestBase {
     /*
     Webdriver/done
     Properties/done
-    Logs, log4j, .log, lopg4j.properties,logger
+    Logs, log4j, .log, log4j.properties,logger
     ExtentReports
     DB
     Excel
@@ -101,13 +101,13 @@ public class TestBase {
 
     public void clickElement(WebDriver driver, String locator) {
         String locatorType = locator.split("_")[1];
-        WebElement webElement = null;
+        WebElement webElement ;
 
-        if (locatorType.toUpperCase().equals("CSS")) {
+        if (locatorType.equalsIgnoreCase("CSS")) {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
-        } else if (locatorType.toUpperCase().equals("XPATH")) {
+        } else if (locatorType.equalsIgnoreCase("XPATH")) {
             webElement = driver.findElement(By.xpath(or.getProperty(locator)));
-        } else if (locatorType.toUpperCase().equals("ID")) {
+        } else if (locatorType.equalsIgnoreCase("ID")) {
             webElement = driver.findElement(By.id(or.getProperty(locator)));
         } else {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
@@ -120,13 +120,13 @@ public class TestBase {
 
     public void typeText(WebDriver driver, String locator, String text) {
         String locatorType = locator.split("_")[1];
-        WebElement webElement = null;
+        WebElement webElement;
 
-        if (locatorType.toUpperCase().equals("CSS")) {
+        if (locatorType.equalsIgnoreCase("CSS")) {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
-        } else if (locatorType.toUpperCase().equals("XPATH")) {
+        } else if (locatorType.equalsIgnoreCase("XPATH")) {
             webElement = driver.findElement(By.xpath(or.getProperty(locator)));
-        } else if (locatorType.toUpperCase().equals("ID")) {
+        } else if (locatorType.equalsIgnoreCase("ID")) {
             webElement = driver.findElement(By.id(or.getProperty(locator)));
         } else {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
@@ -143,7 +143,7 @@ public class TestBase {
         logger.info("test execution completed.");
     }
 
-    /*public static void captureScreenShot(String testCaseName) {
+    /*     public static void captureScreenShot(String testCaseName) {
 
 
         TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
