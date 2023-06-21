@@ -2,28 +2,31 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> xpath: //button[text()='Bank Manager Login']]Webelemenet found]]>
+      <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> xpath: //button[text()='Bank Manager Login']]Webelemenet found]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> xpath: //button[text()='Bank Manager Login']] clicked.]]>
+      <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> xpath: //button[text()='Bank Manager Login']] clicked.]]>
     </line>
     <line>
       <![CDATA[Bank manager login button clicked]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T13:02:12loginButton.png"><p align="left">screenshot </p>]]>
+      <![CDATA[<a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T17:12:43loginButton.png"><p align="left">screenshot </p>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T13:02:12loginButton.png"width =200 height=200><p align="left"> </p>]]>
+      <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> css selector: button[ng-click='addCust()']]Webelemenet found]]>
+      <![CDATA[<img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T17:12:43loginButton.png"width =200 height=200><p align="left"> </p>]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> css selector: button[ng-click='addCust()']] clicked.]]>
+      <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> css selector: button[ng-click='addCust()']]Webelemenet found]]>
+    </line>
+    <line>
+      <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> css selector: button[ng-click='addCust()']] clicked.]]>
     </line>
     <line>
       <![CDATA[Webelemenet found]]>
@@ -44,57 +47,63 @@
       <![CDATA[123 typed.]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> css selector: button[class='btn btn-default']]Webelemenet found]]>
+      <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> css selector: button[class='btn btn-default']]Webelemenet found]]>
     </line>
     <line>
-      <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> css selector: button[class='btn btn-default']] clicked.]]>
+      <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> css selector: button[class='btn btn-default']] clicked.]]>
     </line>
     <line>
-      <![CDATA[<a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T13:02:16addCustomer.png"><p align="left">screenshot </p>]]>
+      <![CDATA[<a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T17:12:51addCustomer.png"><p align="left">screenshot </p>]]>
     </line>
     <line>
       <![CDATA[<br>]]>
     </line>
     <line>
-      <![CDATA[<img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T13:02:16addCustomer.png"width =200 height=200><p align="left"> </p>]]>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T17:12:51addCustomer.png"width =200 height=200><p align="left"> </p>]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-21T13:02:00 CEST" name="All Test Suite" finished-at="2023-06-21T13:02:17 CEST" duration-ms="16973">
+  <suite started-at="2023-06-21T17:12:38 CEST" name="All Test Suite" finished-at="2023-06-21T17:12:51 CEST" duration-ms="12855">
     <groups>
     </groups>
-    <test started-at="2023-06-21T13:02:00 CEST" name="Bank Manager Login Test" finished-at="2023-06-21T13:02:13 CEST" duration-ms="13100">
+    <test started-at="2023-06-21T17:12:38 CEST" name="Bank Manager Login Test" finished-at="2023-06-21T17:12:45 CEST" duration-ms="7133">
       <class name="testcases.BankManagerLoginTest">
-        <test-method signature="loginButton()[pri:0, instance:testcases.BankManagerLoginTest@3d9f6567]" started-at="2023-06-21T13:02:00 CEST" name="loginButton" finished-at="2023-06-21T13:02:12 CEST" duration-ms="12273" status="PASS">
+        <test-method signature="loginButton()[pri:0, instance:testcases.BankManagerLoginTest@2f4205be]" started-at="2023-06-21T17:12:38 CEST" name="loginButton" finished-at="2023-06-21T17:12:43 CEST" duration-ms="4530" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> xpath: //button[text()='Bank Manager Login']]Webelemenet found]]>
+              <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> xpath: //button[text()='Bank Manager Login']]Webelemenet found]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> xpath: //button[text()='Bank Manager Login']] clicked.]]>
+              <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> xpath: //button[text()='Bank Manager Login']] clicked.]]>
             </line>
             <line>
               <![CDATA[Bank manager login button clicked]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T13:02:12loginButton.png"><p align="left">screenshot </p>]]>
+              <![CDATA[<a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T17:12:43loginButton.png"><p align="left">screenshot </p>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T13:02:12loginButton.png"width =200 height=200><p align="left"> </p>]]>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T17:12:43loginButton.png"width =200 height=200><p align="left"> </p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- loginButton -->
       </class> <!-- testcases.BankManagerLoginTest -->
     </test> <!-- Bank Manager Login Test -->
-    <test started-at="2023-06-21T13:02:13 CEST" name="Add Customer Test" finished-at="2023-06-21T13:02:17 CEST" duration-ms="3787">
+    <test started-at="2023-06-21T17:12:45 CEST" name="Add Customer Test" finished-at="2023-06-21T17:12:51 CEST" duration-ms="5671">
       <class name="testcases.AddCustomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@5a411614]" started-at="2023-06-21T13:01:49 CEST" name="setUp" finished-at="2023-06-21T13:02:00 CEST" duration-ms="10446" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCustomerTest@435fb7b5]" started-at="2023-06-21T17:12:27 CEST" name="setUp" finished-at="2023-06-21T17:12:38 CEST" duration-ms="11353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@5a411614]" started-at="2023-06-21T13:02:13 CEST" name="addCustomer" finished-at="2023-06-21T13:02:16 CEST" duration-ms="3368" status="PASS">
+        <test-method signature="addCustomer(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCustomerTest@435fb7b5]" started-at="2023-06-21T17:12:45 CEST" name="addCustomer" finished-at="2023-06-21T17:12:51 CEST" duration-ms="5419" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -119,10 +128,10 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> css selector: button[ng-click='addCust()']]Webelemenet found]]>
+              <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> css selector: button[ng-click='addCust()']]Webelemenet found]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> css selector: button[ng-click='addCust()']] clicked.]]>
+              <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> css selector: button[ng-click='addCust()']] clicked.]]>
             </line>
             <line>
               <![CDATA[Webelemenet found]]>
@@ -143,23 +152,26 @@
               <![CDATA[123 typed.]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> css selector: button[class='btn btn-default']]Webelemenet found]]>
+              <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> css selector: button[class='btn btn-default']]Webelemenet found]]>
             </line>
             <line>
-              <![CDATA[[[ChromeDriver: chrome on mac (5b389bf3ca159f1f5e7b02ddee6bc8bd)] -> css selector: button[class='btn btn-default']] clicked.]]>
+              <![CDATA[[[ChromeDriver: chrome on mac (1c4a3295c18d76b4b6f5662014b07916)] -> css selector: button[class='btn btn-default']] clicked.]]>
             </line>
             <line>
-              <![CDATA[<a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T13:02:16addCustomer.png"><p align="left">screenshot </p>]]>
+              <![CDATA[<a target="_blank" href="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T17:12:51addCustomer.png"><p align="left">screenshot </p>]]>
             </line>
             <line>
               <![CDATA[<br>]]>
             </line>
             <line>
-              <![CDATA[<img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T13:02:16addCustomer.png"width =200 height=200><p align="left"> </p>]]>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<img src="/Users/osmanbozdag/IdeaProjects/DataDrivenProject/src/test/java/screenShots/2023-06-21T17:12:51addCustomer.png"width =200 height=200><p align="left"> </p>]]>
             </line>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@5a411614]" started-at="2023-06-21T13:02:17 CEST" name="tearDown" finished-at="2023-06-21T13:02:17 CEST" duration-ms="173" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.AddCustomerTest@435fb7b5]" started-at="2023-06-21T17:12:51 CEST" name="tearDown" finished-at="2023-06-21T17:12:51 CEST" duration-ms="176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
