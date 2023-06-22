@@ -22,4 +22,12 @@
             <class name="testcases.AddCustomerTest"></class>
         </classes>
     </test>
+    <test verbose="2" preserve-order="true" name="Add Customer Test">
+        <parameter name="customer" value="osman"></parameter>
+        <parameter name="currency" value="Dollar"></parameter>
+        <parameter name="confirmation" value="Account added successfully"></parameter>
+        <classes>
+            <class name="testcases.AddCustomerTest"></class>
+        </classes>
+    </test>
 </suite>

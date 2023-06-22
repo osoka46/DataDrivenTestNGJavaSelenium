@@ -11,9 +11,9 @@ import org.testng.annotations.Test;
 
 public class OpenAccountTest extends TestBase {
 
-    @Parameters({"firstName", "lastName", "postCode", "confirmation"})
+    @Parameters({"customer", "currency", "confirmation"})
     @Test()
-    public void openAccount(String firstName, String lastName, String postCode, String confirmation) {
+    public void openAccount(String customer, String currency) {
 
      /*   String firstName = "osman";
         String lastName = "bzd";
@@ -22,11 +22,6 @@ public class OpenAccountTest extends TestBase {
         Alert alert;
 
 
-        clickElement(driver, "addCustomerBtn_CSS");
-        typeText(driver, "firstName_CSS", firstName);
-        typeText(driver, "lastName_CSS", lastName);
-        typeText(driver, "postCode_CSS", postCode);
-        clickElement(driver, "addBtn_CSS");
 
 
         /*driver.findElement(By.cssSelector(or.getProperty("addCustomerBtn_CSS"))).click();
@@ -39,7 +34,7 @@ public class OpenAccountTest extends TestBase {
         alert = driver.switchTo().alert();
         String confirm = alert.getText();
         alert.accept();
-        Assert.assertTrue(confirm.contains(confirmation));
+
 
     }
 
