@@ -70,7 +70,8 @@ public class TestBase {
                 throw new RuntimeException(e);
             }
             if (config.getProperty("browser").equals("firefox")) {
-                System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/executables/geckodriver");
+                //System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/executables/geckodriver");
+                WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
             } else if (config.getProperty("browser").equals("chrome")) {
                 //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/executables/chromedriver");
@@ -87,7 +88,6 @@ public class TestBase {
         logger.info("navigated to " + config.getProperty("testingUrl"));
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicitWait")), TimeUnit.SECONDS);
-
     }
 
     public boolean isElementDisplayed(By by) {
