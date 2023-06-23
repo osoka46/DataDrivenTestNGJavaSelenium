@@ -33,6 +33,11 @@ public class TestUtil extends TestBase {
 
     }
 
+    public static boolean isTestRunnable(String testName, ExcelReader reader)
+    {
+        //check from RunMode sheet if test case should run, then check on listener class on test start method if this method return true.
+        return true;
+    }
 
    /* public static void captureScreenShot(String testCaseName, WebDriver driver) {
 

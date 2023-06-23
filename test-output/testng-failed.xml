@@ -6,30 +6,18 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="listeners.CustomListeners"/>
   </listeners>
-  <test thread-count="5" name="Bank Manager Login Test(failed)">
+  <test thread-count="5" name="Open Account Test(failed)">
+    <parameter name="currency" value="Dollar"/>
+    <parameter name="confirmation" value="Account created successfully"/>
+    <parameter name="customer" value="ali kaya"/>
     <classes>
-      <class name="testcases.BankManagerLoginTest">
+      <class name="testcases.OpenAccountTest">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="loginButton"/>
-        </methods>
-      </class> <!-- testcases.BankManagerLoginTest -->
-    </classes>
-  </test> <!-- Bank Manager Login Test(failed) -->
-  <test thread-count="5" name="Add Customer Test(failed)">
-    <parameter name="firstName" value="osman"/>
-    <parameter name="lastName" value="bzd"/>
-    <parameter name="postCode" value="123"/>
-    <parameter name="confirmation" value="Customer added successfully"/>
-    <classes>
-      <class name="testcases.AddCustomerTest">
-        <methods>
-          <include name="addCustomer" invocation-numbers="0"/>
+          <include name="openAccount" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.AddCustomerTest -->
+      </class> <!-- testcases.OpenAccountTest -->
     </classes>
-  </test> <!-- Add Customer Test(failed) -->
+  </test> <!-- Open Account Test(failed) -->
 </suite> <!-- Failed suite [All Test Suite] -->

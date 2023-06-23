@@ -14,20 +14,21 @@
     </test>
 
     <test verbose="2" preserve-order="true" name="Add Customer Test">
-        <parameter name="firstName" value="osman"></parameter>
-        <parameter name="lastName" value="bzd"></parameter>
+        <parameter name="firstName" value="ali"></parameter>
+        <parameter name="lastName" value="kaya"></parameter>
         <parameter name="postCode" value="123"></parameter>
         <parameter name="confirmation" value="Customer added successfully"></parameter>
         <classes>
             <class name="testcases.AddCustomerTest"></class>
         </classes>
     </test>
-    <test verbose="2" preserve-order="true" name="Add Customer Test">
-        <parameter name="customer" value="osman"></parameter>
+    <test verbose="2" preserve-order="true" name="Open Account Test">
+        <parameter name="customer" value="ali kaya"></parameter>
         <parameter name="currency" value="Dollar"></parameter>
-        <parameter name="confirmation" value="Account added successfully"></parameter>
+        <parameter name="confirmation" value="Account created successfully"></parameter>
         <classes>
-            <class name="testcases.AddCustomerTest"></class>
+            <class name="testcases.OpenAccountTest"></class>
         </classes>
     </test>
+
 </suite>

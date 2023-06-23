@@ -11,8 +11,9 @@ public class BankManagerLoginTest extends TestBase {
 
     @Test
     public void loginButton() {
+        verifyEquals("BankManagerLoginTest","abc","ab");
         logger.info("inside login test");
-        boolean addCustomerBtnDisplayed=false;
+        boolean addCustomerBtnDisplayed;
         clickElement(driver,"bankManagerLoginButton_XPATH");
         Reporter.log("Bank manager login button clicked");
         addCustomerBtnDisplayed=isElementDisplayed(By.cssSelector(or.getProperty("addCustomerBtn_CSS")));

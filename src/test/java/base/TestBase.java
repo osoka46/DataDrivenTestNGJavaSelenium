@@ -8,22 +8,26 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import utilities.ExcelReader;
+import utilities.TestUtil;
 
 
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Iterator;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class TestBase {
     /*
-    Webdriver/done
+    Web driver/done
     Properties/done
     Logs, log4j, .log, log4j.properties,logger
     ExtentReports
@@ -101,7 +105,7 @@ public class TestBase {
 
     public void clickElement(WebDriver driver, String locator) {
         String locatorType = locator.split("_")[1];
-        WebElement webElement ;
+        WebElement webElement;
 
         if (locatorType.equalsIgnoreCase("CSS")) {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
@@ -112,7 +116,7 @@ public class TestBase {
         } else {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
         }
-        Reporter.log(webElement.toString() + "Webelemenet found");
+        Reporter.log(webElement.toString() + "Web elemenet found");
         webElement.click();
         Reporter.log(webElement.toString() + " clicked.");
     }
@@ -131,10 +135,35 @@ public class TestBase {
         } else {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
         }
-        Reporter.log("Webelemenet found");
+        Reporter.log("Web elemenet found");
         webElement.sendKeys(text);
         Reporter.log(text + " typed.");
     }
+
+    public void select(WebDriver driver, String locator, String value) {
+        String locatorType = locator.split("_")[1];
+        WebElement dropDownWebElement;
+        Select select;
+
+        if (locatorType.equalsIgnoreCase("CSS")) {
+            dropDownWebElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
+        } else if (locatorType.equalsIgnoreCase("XPATH")) {
+            dropDownWebElement = driver.findElement(By.xpath(or.getProperty(locator)));
+        } else if (locatorType.equalsIgnoreCase("ID")) {
+            dropDownWebElement = driver.findElement(By.id(or.getProperty(locator)));
+        } else {
+            dropDownWebElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
+        }
+        Reporter.log("Dropdown found");
+        select=new Select(dropDownWebElement);
+        System.out.println(value);
+        select.selectByVisibleText(value);
+
+        Reporter.log(value + " selected.");
+    }
+
+
+
     @AfterSuite
     public void tearDown() {
         if (driver != null) {
@@ -142,6 +171,41 @@ public class TestBase {
         }
         logger.info("test execution completed.");
     }
+
+    public static void verifyEquals(String testMethodName, String expected, String actual) {
+        try {
+            Assert.assertEquals(expected, actual);
+
+        } catch (Throwable e) {
+
+            String screenShotName = TestUtil.captureScreenShot(testMethodName);
+            String path = System.getProperty("user.dir") + "/src/test/java/screenShots/" + screenShotName + ".png";
+            Reporter.log("<a target=\"_blank\" href=\"" + path + "\"><p align=\"left\">screenshot " + "</p>");
+            TestUtil.captureScreenShot(testMethodName);
+            Reporter.log("<br>"+"Verification failure"+"<br>"+e.getMessage()+"<br>");
+            Reporter.log("<img src=\"" + path + "\"width =200 height=200><p align=\"left\"> " + "</p>");
+        }
+    }
+
+    public static void verifyNotEquals(String expected, String message) {
+        try {
+            Assert.assertNotEquals(expected, message);
+
+        } catch (Throwable e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static void verifyTrue(boolean expected, String message) {
+        try {
+            Assert.assertTrue(expected, message);
+
+        } catch (Throwable e) {
+            e.printStackTrace();
+        }
+    }
+
+
 
     /*     public static void captureScreenShot(String testCaseName) {
 
@@ -158,9 +222,6 @@ public class TestBase {
             e.printStackTrace();
         }
     }*/
-
-
-
 
 
 }

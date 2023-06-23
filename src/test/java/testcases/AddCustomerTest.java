@@ -1,11 +1,10 @@
 package testcases;
 
 import base.TestBase;
-import org.apache.poi.ss.usermodel.Cell;
+
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
@@ -41,6 +40,7 @@ public class AddCustomerTest extends TestBase {
         alert = driver.switchTo().alert();
         String confirm = alert.getText();
         alert.accept();
+        expectedWait(driver,5);
         Assert.assertTrue(confirm.contains(confirmation));
 
     }
