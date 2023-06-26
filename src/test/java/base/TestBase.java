@@ -212,24 +212,4 @@ public class TestBase {
             e.printStackTrace();
         }
     }
-
-
-
-    /*     public static void captureScreenShot(String testCaseName) {
-
-
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
-        File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
-
-        String destinationFile = System.getProperty("user.dir") + "/src/test/java/screenShots/" + testCaseName + ".png";
-
-
-        try {
-            FileUtils.copyFile(source, new File(destinationFile));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }*/
-
-
 }
