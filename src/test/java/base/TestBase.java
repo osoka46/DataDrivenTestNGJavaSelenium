@@ -43,6 +43,7 @@ public class TestBase {
     public static Logger logger = Logger.getLogger("Logger");
     public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
     public static WebDriverWait wait;
+    public static String browser;
 
     static {
         PropertyConfigurator.configure(System.getProperty("user.dir") + "/src/test/resources/log4j.properties");
@@ -68,6 +69,15 @@ public class TestBase {
                 e.printStackTrace();
                 throw new RuntimeException(e);
             }
+
+            if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
+                browser = System.getenv("browser");
+            } else {
+                browser = System.getProperty("browser");
+            }
+            config.setProperty("browser", browser);
+
+
             if (config.getProperty("browser").equals("firefox")) {
                 //System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/executables/geckodriver");
                 WebDriverManager.firefoxdriver().setup();
@@ -154,13 +164,12 @@ public class TestBase {
             dropDownWebElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
         }
         Reporter.log("Dropdown found");
-        select=new Select(dropDownWebElement);
+        select = new Select(dropDownWebElement);
         System.out.println(value);
         select.selectByVisibleText(value);
 
         Reporter.log(value + " selected.");
     }
-
 
 
     @AfterSuite
@@ -181,7 +190,7 @@ public class TestBase {
             String path = System.getProperty("user.dir") + "/src/test/java/screenShots/" + screenShotName + ".png";
             Reporter.log("<a target=\"_blank\" href=\"" + path + "\"><p align=\"left\">screenshot " + "</p>");
             TestUtil.captureScreenShot(testMethodName);
-            Reporter.log("<br>"+"Verification failure"+"<br>"+e.getMessage()+"<br>");
+            Reporter.log("<br>" + "Verification failure" + "<br>" + e.getMessage() + "<br>");
             Reporter.log("<img src=\"" + path + "\"width =200 height=200><p align=\"left\"> " + "</p>");
         }
     }
