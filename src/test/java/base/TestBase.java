@@ -21,7 +21,6 @@ import utilities.TestUtil;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
-import java.util.Iterator;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -118,7 +117,7 @@ public class TestBase {
         }
         Reporter.log(webElement.toString() + "Web elemenet found");
         webElement.click();
-        Reporter.log(webElement.toString() + " clicked.");
+        Reporter.log(webElement + " clicked.");
     }
 
 
