@@ -8,6 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -69,20 +70,20 @@ public class TestBase {
                 e.printStackTrace();
                 throw new RuntimeException(e);
             }
+            String browserName;
 
-            if (System.getenv("browser") != null && !System.getenv("browser").isEmpty()) {
-                browser = System.getenv("browser");
-            } else {
-                browser = System.getProperty("browser");
+            if (System.getProperty("browser")!=null)
+            {
+                browserName=System.getProperty("browser");
+            }else {
+                browserName=config.getProperty("browser");
             }
-            config.setProperty("browser", browser);
 
-
-            if (config.getProperty("browser").equals("firefox")) {
+            if (browserName.equals("firefox")) {
                 //System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/src/test/resources/executables/geckodriver");
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
-            } else if (config.getProperty("browser").equals("chrome")) {
+            } else if (browserName.equals("chrome")) {
                 //System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/executables/chromedriver");
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
