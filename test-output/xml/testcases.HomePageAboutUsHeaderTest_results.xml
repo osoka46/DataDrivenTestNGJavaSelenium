@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bank Manager Login Test"
+           tests="14"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="22,485">
+  <properties />
+  
+  
+            <testcase name="corporateSocialResponsibilityHeader" time="1,040" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="historyHeader" time="1,368" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="breadCrumbSogetiExtendsLocalPresence" time="1,979" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="breadCrumbCelebrating20Years" time="3,072" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="ourOfficesHeader" time="1,256" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="breadCrumbAboutSogeti" time="0,646" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="breadCrumbCorporateSocialResponsibility" time="1,343" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="aboutSogetiHeader" time="1,805" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="passionForSportHeader" time="0,468" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="breadCrumbOurOffices" time="1,115" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="sogetiExtendsLocalPresenceHeader" time="2,025" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="breadCrumbHistory" time="1,842" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="celebrating20YearsHeader" time="3,527" classname="testcases.HomePageAboutUsHeaderTest" />
+                <testcase name="breadCrumbPassionForSport" time="0,999" classname="testcases.HomePageAboutUsHeaderTest" />
+      
+</testsuite>

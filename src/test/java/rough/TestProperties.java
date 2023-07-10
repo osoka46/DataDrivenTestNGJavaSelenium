@@ -1,77 +1,49 @@
 package rough;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import base.TestBase;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.time.LocalDateTime;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.Properties;
+import java.time.Duration;
 
 public class TestProperties {
 
-    public static void main(String[] args) throws IOException {
+    TestBase testBase=new TestBase();
+   public static WebDriver driver;
 
-       /* FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
-        XSSFWorkbook workbook = new XSSFWorkbook(fis);
-//excel dosyasindaki sayfa sayisi
-        int sheetCount = workbook.getNumberOfSheets();
-//0. indexdeki sayfa
-        XSSFSheet sheet = workbook.getSheetAt(0);
-//bulunan sayfanin adi
-        String sayfa = workbook.getSheetName(0);
-//sayfa adindan sayfaya erismek icin atama yaptik
-        XSSFSheet sheet1 = workbook.getSheet(sayfa);
-//column sayisina falan ulasmak icin row iterate yaptik
-        Iterator<Row> rows = sheet.iterator();
-        Row firstRow = rows.next();
-//herbir row daki kutucuklara ulasmak icin
-        Iterator<Cell> cells = firstRow.cellIterator();
-//kurucuktaki elemanlar
-        Cell cell = cells.next();
-        if (cell.getCellType() == CellType.STRING) {
-            String text = cell.getStringCellValue();
-            System.out.println(text);
-        }
-        if (cell.getCellType() == CellType.NUMERIC) {
-            double value = cell.getNumericCellValue();
-            System.out.println(value);
+    public static void main(String[] args) {
 
-        }
-        fis.close();
+        WebDriverManager.chromedriver().setup();
 
-        Row row=sheet.getRow(1);
-        int rowNumber=sheet.getPhysicalNumberOfRows();
-        int cellNumber=row.getPhysicalNumberOfCells();
+        //acceptCookie
+        ChromeOptions options  = new ChromeOptions();
+        //options.addArguments("incognito");
+        options.addArguments("--disable-popup-blocking");
+        driver=new ChromeDriver();
+        driver.get("https://www.sogeti.com/");
+
+        By cookies_accept = By.cssSelector(".acceptCookie");
+
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
+        wait.until(ExpectedConditions.elementToBeClickable(cookies_accept)).click();
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(cookies_accept));
 
 
-        Object  [][]data=new Object[rowNumber][cellNumber];
-        for (int i=0;i<rowNumber;i++)
-        {
-            for (int k=0;k<cellNumber;k++)
-            {
-                data[i][k]=row.getCell(k);
-                System.out.println(data[i][k]);
+        String title;
+        Actions actions=new Actions(driver);
+        actions.moveToElement(driver.findElement(By.xpath("//span[text()='About us']")));
+        driver.findElement(By.xpath("//a[text()='About Sogeti']")).click();
+        System.out.println(driver.findElement(By.xpath("//div[@class='breadcrumbs-wrapper no-tag']")).getText());
 
-            }
-
-        }
-        System.out.println("=============");
-        System.out.println(data[0][0]);
-        System.out.println(data[0][1]);
-        System.out.println(data[0][2]);
-
-        //System.out.println(Arrays.deepToString(data));
-*/
-        LocalDateTime localDateTime=LocalDateTime.now();
-        System.out.println(localDateTime.withNano(0));
 
     }
+
+
 }

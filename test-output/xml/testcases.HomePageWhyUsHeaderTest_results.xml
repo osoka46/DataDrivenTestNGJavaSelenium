@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bank Manager Login Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4,843">
+  <properties />
+  
+  
+            <testcase name="clientStoriesHeader" time="1,420" classname="testcases.HomePageWhyUsHeaderTest" />
+                <testcase name="awardWinningHeader" time="0,993" classname="testcases.HomePageWhyUsHeaderTest" />
+                <testcase name="offShoreDeliveryHeader" time="1,313" classname="testcases.HomePageWhyUsHeaderTest" />
+                <testcase name="partnersHeader" time="1,117" classname="testcases.HomePageWhyUsHeaderTest" />
+      
+</testsuite>

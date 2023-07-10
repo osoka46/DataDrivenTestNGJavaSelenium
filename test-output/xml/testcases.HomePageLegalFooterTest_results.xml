@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bank Manager Login Test"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="3,982">
+  <properties />
+  
+  
+            <testcase name="termsOfUseFooter" time="0,838" classname="testcases.HomePageLegalFooterTest" />
+                <testcase name="legalNoticeFooter" time="0,948" classname="testcases.HomePageLegalFooterTest" />
+                <testcase name="cookiePolicyFooter" time="1,012" classname="testcases.HomePageLegalFooterTest" />
+                <testcase name="privacyPolicyFooter" time="0,792" classname="testcases.HomePageLegalFooterTest" />
+                <testcase name="accessibilityFooter" time="0,392" classname="testcases.HomePageLegalFooterTest" />
+      
+</testsuite>

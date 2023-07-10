@@ -8,6 +8,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -72,11 +73,10 @@ public class TestBase {
             }
             String browserName;
 
-            if (System.getProperty("browser")!=null)
-            {
-                browserName=System.getProperty("browser");
-            }else {
-                browserName=config.getProperty("browser");
+            if (System.getProperty("browser") != null) {
+                browserName = System.getProperty("browser");
+            } else {
+                browserName = config.getProperty("browser");
             }
 
             if (browserName.equals("firefox")) {
@@ -95,17 +95,35 @@ public class TestBase {
 
         logger.info(config.getProperty("browser") + " browser activated.");
         driver.get(config.getProperty("testingUrl"));
-        logger.info("navigated to " + config.getProperty("testingUrl"));
         driver.manage().window().maximize();
+        //driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Integer.parseInt(config.getProperty("implicitWait"))));
+        By cookies_accept = By.cssSelector(or.getProperty("acceptHomePageCookies"));
+        expectedWait(driver, 20);
+        driver.findElement(cookies_accept).click();
         driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicitWait")), TimeUnit.SECONDS);
     }
 
-    public boolean isElementDisplayed(By by) {
+    public void isElementDisplayed(WebDriver driver, String locator) {
         try {
-            driver.findElement(by);
-            return true;
+            String locatorType = locator.split("_")[1];
+            WebElement webElement;
+            boolean isDisplayed;
+            if (locatorType.equalsIgnoreCase("CSS")) {
+                webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
+            } else if (locatorType.equalsIgnoreCase("XPATH")) {
+                webElement = driver.findElement(By.xpath(or.getProperty(locator)));
+            } else if (locatorType.equalsIgnoreCase("ID")) {
+                webElement = driver.findElement(By.id(or.getProperty(locator)));
+            } else if (locatorType.equalsIgnoreCase("link")) {
+                webElement = driver.findElement(By.linkText(or.getProperty(locator)));
+            } else {
+                webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
+            }
+            isDisplayed=webElement.isDisplayed();
+            Assert.assertTrue(isDisplayed);
+            Reporter.log(webElement + "Web elemenet found");
         } catch (NoSuchElementException e) {
-            return false;
+            e.printStackTrace();
         }
     }
 
@@ -123,12 +141,33 @@ public class TestBase {
             webElement = driver.findElement(By.xpath(or.getProperty(locator)));
         } else if (locatorType.equalsIgnoreCase("ID")) {
             webElement = driver.findElement(By.id(or.getProperty(locator)));
+        } else if (locatorType.equalsIgnoreCase("link")) {
+            webElement = driver.findElement(By.linkText(or.getProperty(locator)));
         } else {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
         }
         Reporter.log(webElement.toString() + "Web elemenet found");
         webElement.click();
         Reporter.log(webElement + " clicked.");
+    }
+
+    public void moveToElement(WebDriver driver, String locator) {
+        Actions actions = new Actions(driver);
+        String locatorType = locator.split("_")[1];
+        WebElement webElement;
+
+        if (locatorType.equalsIgnoreCase("CSS")) {
+            webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
+        } else if (locatorType.equalsIgnoreCase("XPATH")) {
+            webElement = driver.findElement(By.xpath(or.getProperty(locator)));
+        } else if (locatorType.equalsIgnoreCase("ID")) {
+            webElement = driver.findElement(By.id(or.getProperty(locator)));
+        } else {
+            webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
+        }
+        Reporter.log(webElement.toString() + "Web elemenet found");
+        actions.moveToElement(webElement).perform();
+
     }
 
 

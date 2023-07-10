@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Bank Manager Login Test"
-           tests="1"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="1,545">
+           time="5,421">
   <properties />
   
   
-            <testcase name="loginButton" time="1,545" classname="testcases.BankManagerLoginTest" />
+            <testcase name="aboutSogetiHeader" time="5,420" classname="testcases.BankManagerLoginTest" />
+                <testcase name="loginButton" time="0,001" classname="testcases.BankManagerLoginTest" />
       
 </testsuite>

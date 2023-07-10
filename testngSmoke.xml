@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+        <listener class-name="listeners.CustomListeners"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="smoke test">
+        <classes>
+            <class name="testcases.HomePageAboutUsHeaderTest">
+                <methods>
+                    <exclude name="breadCrumbSogetiExtendsLocalPresence"/>
+                    <exclude name="breadCrumbOurOffices"/>
+                    <exclude name="breadCrumbPassionForSport"/>
+                    <exclude name="breadCrumbCelebrating20Years"/>
+                    <exclude name="breadCrumbHistory"/>
+                    <exclude name="breadCrumbCorporateSocialResponsibility"/>
+                    <exclude name="breadCrumbAboutSogeti"/>
+                </methods>
+            </class>
+            <class name="testcases.HomePageJoinUsHeaderTest"/>
+            <class name="testcases.HomePageLegalFooterTest"/>
+            <class name="testcases.HomePageWhyUsHeaderTest"/>
+            <class name="testcases.HomePageContactHeaderTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Bank Manager Login Test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5,794">
+  <properties />
+  
+  
+            <testcase name="joinUsSoleadHeader" time="1,044" classname="testcases.HomePageJoinUsHeaderTest" />
+                <testcase name="aboutSogetiHeader" time="3,425" classname="testcases.HomePageJoinUsHeaderTest" />
+                <testcase name="joinUsBecomeYourBestHeader" time="1,325" classname="testcases.HomePageJoinUsHeaderTest" />
+      
+</testsuite>
