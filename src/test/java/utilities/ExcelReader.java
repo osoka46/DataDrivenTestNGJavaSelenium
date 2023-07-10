@@ -26,42 +26,24 @@ public class ExcelReader {
         try {
             fis = new FileInputStream(path);
             workbook = new XSSFWorkbook(fis);
-            fis.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
-    public Sheet getSheetByName(String sheetName) {
-
+    public XSSFSheet getSheetByName(String sheetName) {
         sheet = workbook.getSheet(sheetName);
+        return sheet;
+    }
 
-        Iterator<Row> rowIterator = sheet.iterator();
-
-        while (rowIterator.hasNext()) {
-
-
-        }
-        Row firstRow = rowIterator.next();
-
-
-
-      /*  Iterator<Row>rows=sheet.iterator();
-        Row firstRow= rows.next();
-//herbir row daki kutucuklara ulasmak icin
-        Iterator<Cell>cells=firstRow.cellIterator();
-//kurucuktaki elemanlar
-        Cell cell= cells.next();
-//celldeki veriyi stringe cevirdik ama bir sayisal ifade varsa exception atacaktir. o nedenle once kontrol edilmelidir.
-        if(cell.getCellType()== CellType.STRING)
+    public Row getRowByIndex(XSSFSheet sheet,int index)
+    {
+        Iterator<Row> rows=sheet.iterator();
+        while (rows.hasNext()&&index+1>0)
         {
-            String text=cell.getStringCellValue();
+            index--;
+            Row row=rows.next();
         }
-        if(cell.getCellType()==CellType.NUMERIC){
-            double value=cell.getNumericCellValue();
-        }
-    }*/
-        return null;
-
+        return row;
     }
 }

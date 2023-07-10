@@ -9,11 +9,11 @@
 
     <test verbose="2" preserve-order="true" name="regression test">
         <classes>
-            <class name="testcases.HomePageAboutUsHeaderTest"></class>
-            <class name="testcases.HomePageJoinUsHeaderTest"></class>
-            <class name="testcases.HomePageLegalFooterTest"></class>
-            <class name="testcases.HomePageWhyUsHeaderTest"></class>
-            <class name="testcases.HomePageContactHeaderTest"></class>
+            <class name="testcases.HomePageAboutUsHeaderTest">
+            <class name="testcases.HomePageJoinUsHeaderTest"/>
+            <class name="testcases.HomePageLegalFooterTest"/>
+            <class name="testcases.HomePageWhyUsHeaderTest"/>
+            <class name="testcases.HomePageContactHeaderTest"/>
         </classes>
     </test>
 

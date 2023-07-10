@@ -9,7 +9,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -45,7 +44,6 @@ public class TestBase {
     public static Logger logger = Logger.getLogger("Logger");
     public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
     public static WebDriverWait wait;
-    public static String browser;
 
     static {
         PropertyConfigurator.configure(System.getProperty("user.dir") + "/src/test/resources/log4j.properties");
@@ -122,6 +120,7 @@ public class TestBase {
             isDisplayed=webElement.isDisplayed();
             Assert.assertTrue(isDisplayed);
             Reporter.log(webElement + "Web elemenet found");
+            logger.info(webElement +"Web elemenet found");
         } catch (NoSuchElementException e) {
             e.printStackTrace();
         }
@@ -146,9 +145,11 @@ public class TestBase {
         } else {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
         }
+        logger.info(webElement +"Web elemenet found");
         Reporter.log(webElement.toString() + "Web elemenet found");
         webElement.click();
         Reporter.log(webElement + " clicked.");
+        logger.info(webElement +"Web elemenet clicked");
     }
 
     public void moveToElement(WebDriver driver, String locator) {
@@ -165,8 +166,10 @@ public class TestBase {
         } else {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
         }
+        logger.info(webElement +" web elemenet found");
         Reporter.log(webElement.toString() + "Web elemenet found");
         actions.moveToElement(webElement).perform();
+        logger.info(webElement +"moved to web elemenet");
 
     }
 
@@ -184,9 +187,11 @@ public class TestBase {
         } else {
             webElement = driver.findElement(By.cssSelector(or.getProperty(locator)));
         }
+        logger.info(webElement +" web elemenet found");
         Reporter.log("Web elemenet found");
         webElement.sendKeys(text);
         Reporter.log(text + " typed.");
+        logger.info(text +" typed");
     }
 
     public void select(WebDriver driver, String locator, String value) {
@@ -205,9 +210,7 @@ public class TestBase {
         }
         Reporter.log("Dropdown found");
         select = new Select(dropDownWebElement);
-        System.out.println(value);
         select.selectByVisibleText(value);
-
         Reporter.log(value + " selected.");
     }
 
