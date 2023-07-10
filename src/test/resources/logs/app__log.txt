@@ -1,43 +1,146 @@
-INFO    2023-07-10 15:22:53,951 [main] Logger  - config file loaded.
-INFO    2023-07-10 15:22:53,953 [main] Logger  - or file loaded.
-INFO    2023-07-10 15:23:01,340 [main] Logger  - firefox browser activated.
-INFO    2023-07-10 15:23:05,385 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> css selector: a[class='topMenuLink']]Web elemenet found
-INFO    2023-07-10 15:23:08,467 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> css selector: a[class='topMenuLink']]Web elemenet clicked
-INFO    2023-07-10 15:23:08,880 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='3d6d8810-cdb6-48d2-ae8a-d0ba9a47be22']] web elemenet found
-INFO    2023-07-10 15:23:08,928 [main] Logger  - osoka44 typed
-INFO    2023-07-10 15:23:08,937 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='b891fe49-f544-484f-a603-b9b46dd6fbb7']] web elemenet found
-INFO    2023-07-10 15:23:08,957 [main] Logger  - bzdg44 typed
-INFO    2023-07-10 15:23:08,966 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='e2cccff5-136f-483b-9a02-e0a5b2ec299c']] web elemenet found
-INFO    2023-07-10 15:23:08,991 [main] Logger  - tester typed
-INFO    2023-07-10 15:23:09,002 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='dad12bf7-7785-4c55-be3a-256ad411da4a']] web elemenet found
-INFO    2023-07-10 15:23:09,029 [main] Logger  - oska@gmail.com typed
-INFO    2023-07-10 15:23:09,034 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='7ea3e1a0-6f06-4597-a451-b952cfa5b0d3']] web elemenet found
-INFO    2023-07-10 15:23:09,056 [main] Logger  - 111.0 typed
-INFO    2023-07-10 15:23:09,063 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='703dedb1-a413-4e71-9785-586d609def60']] web elemenet found
-INFO    2023-07-10 15:23:09,086 [main] Logger  - freelancer typed
-INFO    2023-07-10 15:23:09,625 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //textarea[@id='dca1986f-85dc-48c9-84ad-6e92a3625d04']] web elemenet found
-INFO    2023-07-10 15:23:09,651 [main] Logger  - test purpose, is everything okey. Leave me a call typed
-INFO    2023-07-10 15:23:09,659 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //label[@for='__field_1314670']]Web elemenet found
-INFO    2023-07-10 15:23:09,890 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //label[@for='__field_1314670']]Web elemenet clicked
-INFO    2023-07-10 15:23:09,898 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet found
-INFO    2023-07-10 15:23:10,269 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet clicked
-INFO    2023-07-10 15:23:10,423 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //span[@role='alert']]Web elemenet found
-INFO    2023-07-10 15:23:10,699 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> css selector: a[class='topMenuLink']]Web elemenet found
-INFO    2023-07-10 15:23:11,931 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> css selector: a[class='topMenuLink']]Web elemenet clicked
-INFO    2023-07-10 15:23:12,245 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='3d6d8810-cdb6-48d2-ae8a-d0ba9a47be22']] web elemenet found
-INFO    2023-07-10 15:23:12,275 [main] Logger  - osoka45 typed
-INFO    2023-07-10 15:23:12,278 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='b891fe49-f544-484f-a603-b9b46dd6fbb7']] web elemenet found
-INFO    2023-07-10 15:23:12,294 [main] Logger  - bzdg45 typed
-INFO    2023-07-10 15:23:12,305 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='e2cccff5-136f-483b-9a02-e0a5b2ec299c']] web elemenet found
-INFO    2023-07-10 15:23:12,323 [main] Logger  - tester typed
-INFO    2023-07-10 15:23:12,331 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='dad12bf7-7785-4c55-be3a-256ad411da4a']] web elemenet found
-INFO    2023-07-10 15:23:12,355 [main] Logger  - oska@gmail.com typed
-INFO    2023-07-10 15:23:12,359 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='7ea3e1a0-6f06-4597-a451-b952cfa5b0d3']] web elemenet found
-INFO    2023-07-10 15:23:12,380 [main] Logger  - 111.0 typed
-INFO    2023-07-10 15:23:12,396 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='703dedb1-a413-4e71-9785-586d609def60']] web elemenet found
-INFO    2023-07-10 15:23:12,436 [main] Logger  - freelancer typed
-INFO    2023-07-10 15:23:13,015 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //textarea[@id='dca1986f-85dc-48c9-84ad-6e92a3625d04']] web elemenet found
-INFO    2023-07-10 15:23:14,776 [main] Logger  - test purpose, do not attention, Are they any old legends attached to the castle?" asked Conrad of his sister. Conrad was a prosperous Hamburg merchant, but he was the one poetically-dispositioned member of an eminently practical family.
+INFO    2023-07-10 15:34:51,342 [main] Logger  - config file loaded.
+INFO    2023-07-10 15:34:51,345 [main] Logger  - or file loaded.
+INFO    2023-07-10 15:35:02,330 [main] Logger  - firefox browser activated.
+INFO    2023-07-10 15:35:06,808 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:07,012 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:07,054 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='About Sogeti']]Web elemenet found
+INFO    2023-07-10 15:35:09,574 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='About Sogeti']]Web elemenet clicked
+INFO    2023-07-10 15:35:09,953 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:10,195 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:10,210 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='About Sogeti']]Web elemenet found
+INFO    2023-07-10 15:35:10,729 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='About Sogeti']]Web elemenet clicked
+INFO    2023-07-10 15:35:10,875 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='breadcrumbs-wrapper no-tag']]Web elemenet found
+INFO    2023-07-10 15:35:11,134 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:11,291 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:11,299 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Celebrating 20 years']]Web elemenet found
+INFO    2023-07-10 15:35:16,835 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Celebrating 20 years']]Web elemenet clicked
+INFO    2023-07-10 15:35:16,892 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //p[1]//video[1]]Web elemenet found
+INFO    2023-07-10 15:35:17,578 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:17,718 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:17,728 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Corporate Social Responsibility']]Web elemenet found
+INFO    2023-07-10 15:35:18,825 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Corporate Social Responsibility']]Web elemenet clicked
+INFO    2023-07-10 15:35:18,862 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='breadcrumbs-wrapper no-tag']]Web elemenet found
+INFO    2023-07-10 15:35:19,530 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:19,656 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:19,665 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='History']]Web elemenet found
+INFO    2023-07-10 15:35:21,288 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='History']]Web elemenet clicked
+INFO    2023-07-10 15:35:21,347 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='breadcrumbs-wrapper no-tag']]Web elemenet found
+INFO    2023-07-10 15:35:21,618 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:21,771 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:21,780 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Our Offices']]Web elemenet found
+INFO    2023-07-10 15:35:22,813 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Our Offices']]Web elemenet clicked
+INFO    2023-07-10 15:35:22,843 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='breadcrumbs-wrapper no-tag']]Web elemenet found
+INFO    2023-07-10 15:35:23,261 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:23,403 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:23,414 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Passion for sport']]Web elemenet found
+INFO    2023-07-10 15:35:24,212 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Passion for sport']]Web elemenet clicked
+INFO    2023-07-10 15:35:24,257 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='breadcrumbs-wrapper no-tag']]Web elemenet found
+INFO    2023-07-10 15:35:24,874 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:24,992 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:25,000 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Sogeti extends its local presence']]Web elemenet found
+INFO    2023-07-10 15:35:26,635 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Sogeti extends its local presence']]Web elemenet clicked
+INFO    2023-07-10 15:35:26,674 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='breadcrumbs-wrapper no-tag']]Web elemenet found
+INFO    2023-07-10 15:35:27,286 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:27,411 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:27,438 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Celebrating 20 years']]Web elemenet found
+INFO    2023-07-10 15:35:30,051 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Celebrating 20 years']]Web elemenet clicked
+INFO    2023-07-10 15:35:32,362 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:32,506 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:32,513 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Corporate Social Responsibility']]Web elemenet found
+INFO    2023-07-10 15:35:33,649 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Corporate Social Responsibility']]Web elemenet clicked
+INFO    2023-07-10 15:35:34,180 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:34,373 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:34,385 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='History']]Web elemenet found
+INFO    2023-07-10 15:35:35,870 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='History']]Web elemenet clicked
+INFO    2023-07-10 15:35:36,103 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:36,225 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:36,236 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Our Offices']]Web elemenet found
+INFO    2023-07-10 15:35:37,419 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Our Offices']]Web elemenet clicked
+INFO    2023-07-10 15:35:38,197 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:38,352 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:38,360 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Passion for sport']]Web elemenet found
+INFO    2023-07-10 15:35:39,158 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Passion for sport']]Web elemenet clicked
+INFO    2023-07-10 15:35:39,751 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']] web elemenet found
+INFO    2023-07-10 15:35:39,901 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='About us']]moved to web elemenet
+INFO    2023-07-10 15:35:39,906 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Sogeti extends its local presence']]Web elemenet found
+INFO    2023-07-10 15:35:41,307 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Sogeti extends its local presence']]Web elemenet clicked
+INFO    2023-07-10 15:35:43,265 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='wrapper']//span[text()='Join us']] web elemenet found
+INFO    2023-07-10 15:35:43,403 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='wrapper']//span[text()='Join us']]moved to web elemenet
+INFO    2023-07-10 15:35:43,410 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[contains(@class,'subMenuLink')][normalize-space()='Jobs at Sogeti']]Web elemenet found
+INFO    2023-07-10 15:35:47,029 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[contains(@class,'subMenuLink')][normalize-space()='Jobs at Sogeti']]Web elemenet clicked
+INFO    2023-07-10 15:35:47,067 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[@title='new window'][normalize-space()='Germany']]Web elemenet found
+INFO    2023-07-10 15:35:47,670 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[@title='new window'][normalize-space()='Germany']]Web elemenet clicked
+INFO    2023-07-10 15:35:50,572 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='wrapper']//span[text()='Join us']] web elemenet found
+INFO    2023-07-10 15:35:50,707 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='wrapper']//span[text()='Join us']]moved to web elemenet
+INFO    2023-07-10 15:35:50,712 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[contains(@class,'subMenuLink')][normalize-space()='Become your Best']]Web elemenet found
+INFO    2023-07-10 15:35:52,504 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[contains(@class,'subMenuLink')][normalize-space()='Become your Best']]Web elemenet clicked
+INFO    2023-07-10 15:35:53,429 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='wrapper']//span[text()='Join us']] web elemenet found
+INFO    2023-07-10 15:35:53,572 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //div[@class='wrapper']//span[text()='Join us']]moved to web elemenet
+INFO    2023-07-10 15:35:53,591 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[@class='subMenuLink'][normalize-space()='SoLEAD']]Web elemenet found
+INFO    2023-07-10 15:35:54,700 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[@class='subMenuLink'][normalize-space()='SoLEAD']]Web elemenet clicked
+INFO    2023-07-10 15:35:54,902 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Accessibility']]Web elemenet found
+INFO    2023-07-10 15:35:55,421 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Accessibility']]Web elemenet clicked
+INFO    2023-07-10 15:35:55,637 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: .cookie-policy-link.hasclosebtn]Web elemenet found
+INFO    2023-07-10 15:35:55,951 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: .cookie-policy-link.hasclosebtn]Web elemenet clicked
+INFO    2023-07-10 15:35:57,229 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[@title='Legal notice']]Web elemenet found
+INFO    2023-07-10 15:35:58,299 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[@title='Legal notice']]Web elemenet clicked
+INFO    2023-07-10 15:35:58,905 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[href='/privacy-policy/']]Web elemenet found
+INFO    2023-07-10 15:35:59,768 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[href='/privacy-policy/']]Web elemenet clicked
+INFO    2023-07-10 15:35:59,971 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[href='/terms-of-use/']]Web elemenet found
+INFO    2023-07-10 15:36:00,805 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[href='/terms-of-use/']]Web elemenet clicked
+INFO    2023-07-10 15:36:01,431 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='Why us?']] web elemenet found
+INFO    2023-07-10 15:36:01,585 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='Why us?']]moved to web elemenet
+INFO    2023-07-10 15:36:01,592 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Award Winning']]Web elemenet found
+INFO    2023-07-10 15:36:02,539 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Award Winning']]Web elemenet clicked
+INFO    2023-07-10 15:36:02,754 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='Why us?']] web elemenet found
+INFO    2023-07-10 15:36:02,870 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='Why us?']]moved to web elemenet
+INFO    2023-07-10 15:36:02,874 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Client Stories']]Web elemenet found
+INFO    2023-07-10 15:36:04,422 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Client Stories']]Web elemenet clicked
+INFO    2023-07-10 15:36:04,685 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='Why us?']] web elemenet found
+INFO    2023-07-10 15:36:04,822 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='Why us?']]moved to web elemenet
+INFO    2023-07-10 15:36:04,827 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Offshore Delivery']]Web elemenet found
+INFO    2023-07-10 15:36:05,874 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Offshore Delivery']]Web elemenet clicked
+INFO    2023-07-10 15:36:06,557 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='Why us?']] web elemenet found
+INFO    2023-07-10 15:36:06,717 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[text()='Why us?']]moved to web elemenet
+INFO    2023-07-10 15:36:06,722 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Partners']]Web elemenet found
+INFO    2023-07-10 15:36:08,057 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //a[text()='Partners']]Web elemenet clicked
+INFO    2023-07-10 15:36:08,416 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[class='topMenuLink']]Web elemenet found
+INFO    2023-07-10 15:36:10,524 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[class='topMenuLink']]Web elemenet clicked
+INFO    2023-07-10 15:36:11,134 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='3d6d8810-cdb6-48d2-ae8a-d0ba9a47be22']] web elemenet found
+INFO    2023-07-10 15:36:11,205 [main] Logger  - osoka44 typed
+INFO    2023-07-10 15:36:11,209 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='b891fe49-f544-484f-a603-b9b46dd6fbb7']] web elemenet found
+INFO    2023-07-10 15:36:11,231 [main] Logger  - bzdg44 typed
+INFO    2023-07-10 15:36:11,235 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='e2cccff5-136f-483b-9a02-e0a5b2ec299c']] web elemenet found
+INFO    2023-07-10 15:36:11,252 [main] Logger  - tester typed
+INFO    2023-07-10 15:36:11,264 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='dad12bf7-7785-4c55-be3a-256ad411da4a']] web elemenet found
+INFO    2023-07-10 15:36:11,286 [main] Logger  - oska@gmail.com typed
+INFO    2023-07-10 15:36:11,289 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='7ea3e1a0-6f06-4597-a451-b952cfa5b0d3']] web elemenet found
+INFO    2023-07-10 15:36:11,302 [main] Logger  - 111.0 typed
+INFO    2023-07-10 15:36:11,306 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='703dedb1-a413-4e71-9785-586d609def60']] web elemenet found
+INFO    2023-07-10 15:36:11,327 [main] Logger  - freelancer typed
+INFO    2023-07-10 15:36:11,953 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //textarea[@id='dca1986f-85dc-48c9-84ad-6e92a3625d04']] web elemenet found
+INFO    2023-07-10 15:36:11,985 [main] Logger  - test purpose, is everything okey. Leave me a call typed
+INFO    2023-07-10 15:36:11,990 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //label[@for='__field_1314670']]Web elemenet found
+INFO    2023-07-10 15:36:12,238 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //label[@for='__field_1314670']]Web elemenet clicked
+INFO    2023-07-10 15:36:12,251 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet found
+INFO    2023-07-10 15:36:12,567 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet clicked
+INFO    2023-07-10 15:36:12,600 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[@role='alert']]Web elemenet found
+INFO    2023-07-10 15:36:12,778 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[class='topMenuLink']]Web elemenet found
+INFO    2023-07-10 15:36:13,970 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[class='topMenuLink']]Web elemenet clicked
+INFO    2023-07-10 15:36:14,244 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='3d6d8810-cdb6-48d2-ae8a-d0ba9a47be22']] web elemenet found
+INFO    2023-07-10 15:36:14,289 [main] Logger  - osoka45 typed
+INFO    2023-07-10 15:36:14,293 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='b891fe49-f544-484f-a603-b9b46dd6fbb7']] web elemenet found
+INFO    2023-07-10 15:36:14,321 [main] Logger  - bzdg45 typed
+INFO    2023-07-10 15:36:14,325 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='e2cccff5-136f-483b-9a02-e0a5b2ec299c']] web elemenet found
+INFO    2023-07-10 15:36:14,339 [main] Logger  - tester typed
+INFO    2023-07-10 15:36:14,342 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='dad12bf7-7785-4c55-be3a-256ad411da4a']] web elemenet found
+INFO    2023-07-10 15:36:14,374 [main] Logger  - oska@gmail.com typed
+INFO    2023-07-10 15:36:14,379 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='7ea3e1a0-6f06-4597-a451-b952cfa5b0d3']] web elemenet found
+INFO    2023-07-10 15:36:14,395 [main] Logger  - 111.0 typed
+INFO    2023-07-10 15:36:14,408 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='703dedb1-a413-4e71-9785-586d609def60']] web elemenet found
+INFO    2023-07-10 15:36:14,499 [main] Logger  - freelancer typed
+INFO    2023-07-10 15:36:15,134 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //textarea[@id='dca1986f-85dc-48c9-84ad-6e92a3625d04']] web elemenet found
+INFO    2023-07-10 15:36:16,682 [main] Logger  - test purpose, do not attention, Are they any old legends attached to the castle?" asked Conrad of his sister. Conrad was a prosperous Hamburg merchant, but he was the one poetically-dispositioned member of an eminently practical family.
 
 The Baroness Gruebel shrugged her plump shoulders.
 
@@ -126,30 +229,30 @@ There was a moment of constrained silence, and then the banker's wife spoke.
 The Baroness eagerly agreed that the cold was responsible for these things. It was the cold of the open window, too, which caused the heart failure that made the doctor's ministrations unnecessary for the old Fraulein. But the notice in the newspapers looked very well--
 
 "On December 29th, at Schloss Cernogratz, Amalie von Cernogratz, for many years the valued friend of Baron and Baroness Gruebel. typed
-INFO    2023-07-10 15:23:14,791 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //label[@for='__field_1314670']]Web elemenet found
-INFO    2023-07-10 15:23:15,035 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //label[@for='__field_1314670']]Web elemenet clicked
-INFO    2023-07-10 15:23:15,059 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet found
-INFO    2023-07-10 15:23:15,388 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet clicked
-INFO    2023-07-10 15:23:15,422 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //span[@role='alert']]Web elemenet found
-INFO    2023-07-10 15:23:15,616 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> css selector: a[class='topMenuLink']]Web elemenet found
-INFO    2023-07-10 15:23:17,115 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> css selector: a[class='topMenuLink']]Web elemenet clicked
-INFO    2023-07-10 15:23:17,497 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='3d6d8810-cdb6-48d2-ae8a-d0ba9a47be22']] web elemenet found
-INFO    2023-07-10 15:23:17,567 [main] Logger  - osoka46 typed
-INFO    2023-07-10 15:23:17,576 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='b891fe49-f544-484f-a603-b9b46dd6fbb7']] web elemenet found
-INFO    2023-07-10 15:23:17,621 [main] Logger  - bzdg46 typed
-INFO    2023-07-10 15:23:17,645 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='e2cccff5-136f-483b-9a02-e0a5b2ec299c']] web elemenet found
-INFO    2023-07-10 15:23:17,684 [main] Logger  - tester typed
-INFO    2023-07-10 15:23:17,719 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='dad12bf7-7785-4c55-be3a-256ad411da4a']] web elemenet found
-INFO    2023-07-10 15:23:17,809 [main] Logger  - oska@gmail.com typed
-INFO    2023-07-10 15:23:17,817 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='7ea3e1a0-6f06-4597-a451-b952cfa5b0d3']] web elemenet found
-INFO    2023-07-10 15:23:17,839 [main] Logger  - 111.0 typed
-INFO    2023-07-10 15:23:17,849 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //input[@id='703dedb1-a413-4e71-9785-586d609def60']] web elemenet found
-INFO    2023-07-10 15:23:17,883 [main] Logger  - freelancer typed
-INFO    2023-07-10 15:23:18,501 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //textarea[@id='dca1986f-85dc-48c9-84ad-6e92a3625d04']] web elemenet found
-INFO    2023-07-10 15:23:18,547 [main] Logger  - test purpose, hey how are you typed
-INFO    2023-07-10 15:23:18,556 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //label[@for='__field_1314670']]Web elemenet found
-INFO    2023-07-10 15:23:18,813 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //label[@for='__field_1314670']]Web elemenet clicked
-INFO    2023-07-10 15:23:18,821 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet found
-INFO    2023-07-10 15:23:19,166 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet clicked
-INFO    2023-07-10 15:23:19,257 [main] Logger  - [[FirefoxDriver: firefox on mac (4f09dc4e-7d77-4ae7-85e4-f1d30038d2b0)] -> xpath: //span[@role='alert']]Web elemenet found
-INFO    2023-07-10 15:23:21,103 [main] Logger  - test execution completed.
+INFO    2023-07-10 15:36:16,693 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //label[@for='__field_1314670']]Web elemenet found
+INFO    2023-07-10 15:36:16,930 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //label[@for='__field_1314670']]Web elemenet clicked
+INFO    2023-07-10 15:36:16,935 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet found
+INFO    2023-07-10 15:36:17,212 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet clicked
+INFO    2023-07-10 15:36:17,241 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[@role='alert']]Web elemenet found
+INFO    2023-07-10 15:36:17,403 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[class='topMenuLink']]Web elemenet found
+INFO    2023-07-10 15:36:18,769 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> css selector: a[class='topMenuLink']]Web elemenet clicked
+INFO    2023-07-10 15:36:19,091 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='3d6d8810-cdb6-48d2-ae8a-d0ba9a47be22']] web elemenet found
+INFO    2023-07-10 15:36:19,132 [main] Logger  - osoka46 typed
+INFO    2023-07-10 15:36:19,138 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='b891fe49-f544-484f-a603-b9b46dd6fbb7']] web elemenet found
+INFO    2023-07-10 15:36:19,157 [main] Logger  - bzdg46 typed
+INFO    2023-07-10 15:36:19,162 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='e2cccff5-136f-483b-9a02-e0a5b2ec299c']] web elemenet found
+INFO    2023-07-10 15:36:19,181 [main] Logger  - tester typed
+INFO    2023-07-10 15:36:19,192 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='dad12bf7-7785-4c55-be3a-256ad411da4a']] web elemenet found
+INFO    2023-07-10 15:36:19,215 [main] Logger  - oska@gmail.com typed
+INFO    2023-07-10 15:36:19,220 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='7ea3e1a0-6f06-4597-a451-b952cfa5b0d3']] web elemenet found
+INFO    2023-07-10 15:36:19,241 [main] Logger  - 111.0 typed
+INFO    2023-07-10 15:36:19,245 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //input[@id='703dedb1-a413-4e71-9785-586d609def60']] web elemenet found
+INFO    2023-07-10 15:36:19,262 [main] Logger  - freelancer typed
+INFO    2023-07-10 15:36:19,844 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //textarea[@id='dca1986f-85dc-48c9-84ad-6e92a3625d04']] web elemenet found
+INFO    2023-07-10 15:36:19,871 [main] Logger  - test purpose, hey how are you typed
+INFO    2023-07-10 15:36:19,875 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //label[@for='__field_1314670']]Web elemenet found
+INFO    2023-07-10 15:36:20,125 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //label[@for='__field_1314670']]Web elemenet clicked
+INFO    2023-07-10 15:36:20,135 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet found
+INFO    2023-07-10 15:36:20,418 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //button[@id='b35711ee-b569-48b4-8ec4-6476dbf61ef8']]Web elemenet clicked
+INFO    2023-07-10 15:36:20,454 [main] Logger  - [[FirefoxDriver: firefox on mac (9c6648d6-d11a-4496-ab57-a7cbd1a7db25)] -> xpath: //span[@role='alert']]Web elemenet found
+INFO    2023-07-10 15:36:22,522 [main] Logger  - test execution completed.

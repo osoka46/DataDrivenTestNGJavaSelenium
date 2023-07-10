@@ -9,7 +9,7 @@
 
     <test verbose="2" preserve-order="true" name="regression test">
         <classes>
-            <class name="testcases.HomePageAboutUsHeaderTest">
+            <class name="testcases.HomePageAboutUsHeaderTest"/>
             <class name="testcases.HomePageJoinUsHeaderTest"/>
             <class name="testcases.HomePageLegalFooterTest"/>
             <class name="testcases.HomePageWhyUsHeaderTest"/>

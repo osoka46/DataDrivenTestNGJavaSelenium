@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="regression test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13,500">
+  <properties />
+  
+  
+            <testcase name="generalEnquiries" time="3,659" classname="testcases.HomePageContactHeaderTest" />
+                <testcase name="generalEnquiries" time="5,086" classname="testcases.HomePageContactHeaderTest" />
+                <testcase name="generalEnquiries" time="4,755" classname="testcases.HomePageContactHeaderTest" />
+      
+</testsuite>
